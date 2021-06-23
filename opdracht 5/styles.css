@@ -1,0 +1,67 @@
+body {
+        color: rgb(209, 47, 168);
+        background-color: rgb(19, 3, 34);
+        border:black 5px; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+
+}
+
+
+.black-border {
+    border: 2px solid black; margin-top: 3%; margin-bottom: 3%; padding-left: 3%; ;
+}
+
+h1 {
+    color:black; font-size: smaller; margin: 0 auto;
+}
+
+h2 {
+    color: royalblue; 
+}
+
+.pink-border {
+    border: 2px solid pink; margin-top: 3%; margin-bottom: 3%; padding-left: 3%; width: property 100%
+    
+}
+
+nav {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+
+
+.nav-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+li{
+    float: left;
+    
+}
+
+li a {
+    display: block;
+    color: blanchedalmond;
+    padding: 14px 16px;
+
+}
+
+
+
+
+footer {background-color: blanchedalmond; font-size: smaller; margin-top: 3%; margin-bottom: 3%; padding-left: 3%}
+
+
+@media (min-width: 1024px) {
+
+    body {background-color: palegreen;
+    color: green;
+    size: 1.25rem;
+    font-size: 0.75rem;
+
+}
+}
